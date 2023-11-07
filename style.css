@@ -1,0 +1,35 @@
+*{
+   margin: 0;
+}
+body{
+   min-width: 100vw;
+   min-height: 100vh;
+   background-color: black;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+body > div.container{
+   position: relative;
+   display: flex;
+   align-items: center;
+   width: fit-content;
+}
+body > div.container p.glitch{
+   color: white;
+   font-size: 60px;
+   font-weight: 600;
+   font-family: sans-serif;
+   position: absolute;
+}
+body > div.container p.blueText{
+   color: blue;
+   z-index: -10;
+   left: -3px;
+}
+body > div.container p.redText{
+   color: red;
+   z-index: -15;
+   left: 3px;
+}
