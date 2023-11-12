@@ -4,32 +4,54 @@
 body{
    min-width: 100vw;
    min-height: 100vh;
-   background-color: black;
    overflow: hidden;
+   flex-direction: column;
    display: flex;
    align-items: center;
    justify-content: center;
 }
 body > div.container{
-   position: relative;
    display: flex;
+   position: relative;
    align-items: center;
    width: fit-content;
+   background-color: black;
+   z-index: 5;
 }
 body > div.container p.glitch{
    color: white;
    font-size: 60px;
    font-weight: 600;
    font-family: sans-serif;
-   position: absolute;
+   white-space: nowrap;
 }
 body > div.container p.blueText{
    color: blue;
-   z-index: -10;
-   left: -3px;
+   z-index: -1;
+   margin-left: -3px;
+   position: absolute;
 }
 body > div.container p.redText{
    color: red;
-   z-index: -15;
-   left: 3px;
+   z-index: -2;
+   margin-left: 3px;
+   position: absolute;
+}
+
+div.controls{
+   display: flex;
+   flex-direction: column;
+}
+div.controls  label{
+   margin-bottom: 5px;
+   font-family: monospace;
+}
+div.controls input{
+   margin-bottom: 12px;
+}
+
+div.controls input[type="text"]{
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 5px;
 }
