@@ -55,3 +55,8 @@ div.controls input[type="text"]{
    border: 1px solid black;
    border-radius: 5px;
 }
+
+select#fonts{
+   margin-bottom: 20px;
+   padding: 4px;
+}

@@ -1,0 +1,715 @@
+@font-face {
+  font-family: "a1";
+  src: url("/fonts/ARIAL.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a2";
+  src: url("/fonts/BaybayinDoctrinaClear.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a3";
+  src: url("/fonts/Century Gothic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a4";
+  src: url("/fonts/computer-font.ttf/");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a5";
+  src: url("/fonts/DroidSans-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a6";
+  src: url("/fonts/DroidSans.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a7";
+  src: url("/fonts/DroidSansMono.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a8";
+  src: url("/fonts/DroidSerif-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a9";
+  src: url("/fonts/DroidSerif-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a10";
+  src: url("/fonts/DroidSerif-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a11";
+  src: url("/fonts/DroidSerif-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a12";
+  src: url("/fonts/FiraCode-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a13";
+  src: url("/fonts/FiraCode-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a14";
+  src: url("/fonts/FiraCode-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a15";
+  src: url("/fonts/FiraCode-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a16";
+  src: url("/fonts/FiraCode-Retina.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a17";
+  src: url("/fonts/firstorder.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a18";
+  src: url("/fonts/firstorder3d.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a19";
+  src: url("/fonts/firstorder3dital.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a20";
+  src: url("/fonts/firstordercond.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a21";
+  src: url("/fonts/firstordercondital.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a22";
+  src: url("/fonts/firstorderexpand.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a23";
+  src: url("/fonts/firstorderexpandital.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a24";
+  src: url("/fonts/firstordergrad.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a25";
+  src: url("/fonts/firstordergradital.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a26";
+  src: url("/fonts/firstorderital.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a27";
+  src: url("/fonts/firstorderleft.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a28";
+  src: url("/fonts/firstorderplain.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a29";
+  src: url("/fonts/firstorderplainital.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a30";
+  src: url("/fonts/firstorderrotal.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a31";
+  src: url("/fonts/firstorderrotate.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a32";
+  src: url("/fonts/firstordersemital.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a33";
+  src: url("/fonts/firstordertitle.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a34";
+  src: url("/fonts/firstordertitleital.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a35";
+  src: url("/fonts/GOTHIC.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a36";
+  src: url("/fonts/gothicb.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a37";
+  src: url("/fonts/GOTHICB0.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a38";
+  src: url("/fonts/hobbitonbrushhand.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a39";
+  src: url("/fonts/Inconsolata.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a40";
+  src: url("/fonts/NORDIC__.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a41";
+  src: url("/fonts/Nordica.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a42";
+  src: url("/fonts/PTF-NORDIC-Rnd.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a43";
+  src: url("/fonts/Roboto-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a44";
+  src: url("/fonts/Roboto-Thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a45";
+  src: url("/fonts/RUNE.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a46";
+  src: url("/fonts/rune.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a47";
+  src: url("/fonts/SourceCodePro-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a48";
+  src: url("/fonts/SourceCodePro-BoldIt.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a49";
+  src: url("/fonts/SourceCodePro-It.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a50";
+  src: url("/fonts/SourceCodePro-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a51";
+  src: url("/fonts/tngan.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a52";
+  src: url("/fonts/tnganb.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a53";
+  src: url("/fonts/tnganbi.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a54";
+  src: url("/fonts/tngani.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a55";
+  src: url("/fonts/viking_elder_runes_bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a56";
+  src: url("/fonts/viking_elder_runes.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a57";
+  src: url("/fonts/viking_middle_runes_bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a58";
+  src: url("/fonts/viking_middle_runes.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a59";
+  src: url("/fonts/WorkSans-Black.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a60";
+  src: url("/fonts/WorkSans-BlackItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a61";
+  src: url("/fonts/WorkSans-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a62";
+  src: url("/fonts/WorkSans-BoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a63";
+  src: url("/fonts/WorkSans-ExtraBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a64";
+  src: url("/fonts/WorkSans-ExtraBoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a65";
+  src: url("/fonts/WorkSans-ExtraLight.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a66";
+  src: url("/fonts/WorkSans-ExtraLightItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a67";
+  src: url("/fonts/worksans-italic-vf.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a68";
+  src: url("/fonts/WorkSans-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a69";
+  src: url("/fonts/WorkSans-Italic[wght].ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a70";
+  src: url("/fonts/WorkSans-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a71";
+  src: url("/fonts/WorkSans-LightItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a72";
+  src: url("/fonts/WorkSans-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a73";
+  src: url("/fonts/WorkSans-MediumItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a74";
+  src: url("/fonts/WorkSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a75";
+  src: url("/fonts/worksans-roman-vf.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a76";
+  src: url("/fonts/WorkSans-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a77";
+  src: url("/fonts/WorkSans-SemiBoldItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a78";
+  src: url("/fonts/WorkSans-Thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a79";
+  src: url("/fonts/WorkSans-ThinItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a80";
+  src: url("/fonts/WorkSans[wght].ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/*lll*/
+@font-face {
+  font-family: "a81";
+  src: url("/fonts/28 Days Later.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a82";
+  src: url("/fonts/Bates Shower.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a83";
+  src: url("/fonts/BlackDahlia.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a84";
+  src: url("/fonts/BlackWidow.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a85";
+  src: url("/fonts/bloodcrow.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a86";
+  src: url("/fonts/bloodcrowc.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a87";
+  src: url("/fonts/bloodcrowci.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a88";
+  src: url("/fonts/bloodcrowe.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a89";
+  src: url("/fonts/bloodcrowei.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a90";
+  src: url("/fonts/bloodcrowi.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a91";
+  src: url("/fonts/bloodcrowl.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a92";
+  src: url("/fonts/bloodcrows.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a93";
+  src: url("/fonts/bloodcrowsc.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a94";
+  src: url("/fonts/bloodcrowsci.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a95";
+  src: url("/fonts/Come With Us.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a96";
+  src: url("/fonts/Curse of the Zombie.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a97";
+  src: url("/fonts/DAEMONES.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a98";
+  src: url("/fonts/Damned.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a99";
+  src: url("/fonts/DEADLY KILLERS.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a100";
+  src: url("/fonts/DEADLY KILLERS.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a101";
+  src: url("/fonts/DeathtoMetal.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a102";
+  src: url("/fonts/Evil Highway.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a103";
+  src: url("/fonts/Halls___.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a104";
+  src: url("/fonts/Heartless.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a105";
+  src: url("/fonts/HelpMe.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a106";
+  src: url("/fonts/horrorCORE.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a107";
+  src: url("/fonts/Letric_PERSONAL_USE_ONLY.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a108";
+  src: url("/fonts/Nightcore Demo.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a109";
+  src: url("/fonts/Nightmare 5.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a110";
+  src: url("/fonts/Nightmare Before Christmas.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a111";
+  src: url("/fonts/Oh No.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a112";
+  src: url("/fonts/Sengatz.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a113";
+  src: url("/fonts/Swamp Witch.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a114";
+  src: url("/fonts/Tales of Scare FX Over.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a115";
+  src: url("/fonts/Tales of Scare FX Under.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a116";
+  src: url("/fonts/Tales of Scare FX.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a117";
+  src: url("/fonts/This Night.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a118";
+  src: url("/fonts/VENOM.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a119";
+  src: url("/fonts/WereWolf.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
